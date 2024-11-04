@@ -31,22 +31,21 @@ void dijkstra(int src){
             }
         }
     }
-
     for (int i = 0; i < V; i++){
         cout << "Distance from " << src << " to " << i << " is " << distance[i] << endl;
     }
 }
 
 int main() {
-  addEdge(0, 1, 2);
-  addEdge(0, 2, 6);
-  addEdge(1, 3, 5);
-  addEdge(2, 3, 8);
-  addEdge(3, 4, 10);
-  addEdge(3, 5, 15);
-  addEdge(4, 6, 2);
-  addEdge(5, 6, 6);
+    addEdge(0, 1, 2);
+    addEdge(0, 2, 6);
+    addEdge(1, 3, 5);
+    addEdge(2, 3, 8);
+    addEdge(3, 4, 10);
+    addEdge(3, 5, 15);
+    addEdge(4, 6, 2);
+    addEdge(5, 6, 6);
 
-  dijkstra(0);
-  return 0;
+    dijkstra(0);
+    return 0;
 }
