@@ -7,8 +7,7 @@ public:
     DisjointSet(int n){
         par.resize(n + 1);
         rank.resize(n + 1, 0);
-        for (int i = 0; i <= n; i++)
-        {
+        for (int i = 0; i <= n; i++){
             par[i] = i;
         }
     }
