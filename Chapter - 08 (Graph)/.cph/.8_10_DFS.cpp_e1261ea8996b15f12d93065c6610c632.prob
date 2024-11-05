@@ -1,0 +1,1 @@
+{"name":"Local: 8_10_DFS","url":"c:\\Users\\tanvi\\Desktop\\DSA\\Chapter - 08 (Graph)\\8_10_DFS.cpp","tests":[{"id":1730773936752,"input":"4 5\n\n1 2\n2 3\n3 4\n2 4\n4 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\tanvi\\Desktop\\DSA\\Chapter - 08 (Graph)\\8_10_DFS.cpp","group":"local","local":true}

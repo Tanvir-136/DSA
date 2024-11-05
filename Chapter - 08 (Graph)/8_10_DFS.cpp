@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int MAX_N = 1e5 + 10;
-vector<int> graph[MAX_N];
-bool vis[MAX_N];
+const int N = 1e5 + 10;
+vector<int> graph[N];
+bool vis[N];
 
 void dfs(int vertex){
     vis[vertex] = true;
@@ -25,7 +25,7 @@ int main(){
         graph[v2].push_back(v1);
     }
     cout << "DFS traversal:  ";
-    dfs(2);
+    dfs(1);
     cout << endl;
     return  0;
 }

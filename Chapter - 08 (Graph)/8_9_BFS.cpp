@@ -22,7 +22,6 @@ void bfs(int start){
             q.push(it);
             
         }
-
     }
 }
 int main(){
